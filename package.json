@@ -1,0 +1,33 @@
+{
+  "name": "link-git-hooks",
+  "version": "0.5.0",
+  "description": "A simple way of linking a local `hooks` directory to your `.git/hooks` and making sure all your commits get the proper attention.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/runner"
+  },
+  "bin": {
+    "link-git-hooks": "bin/runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/frostedio/link-git-hooks.git"
+  },
+  "keywords": [
+    "bitbucket",
+    "git",
+    "githook",
+    "github",
+    "gitlab",
+    "hook"
+  ],
+  "author": "Kerim Satirli <kerim@icemobile.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^1.5.2",
+    "chalk": "^1.1.1",
+    "update-notifier": "^0.6.0"
+  },
+  "homepage": "https://bitbucket.org/frostedio/link-git-hooks#readme",
+  "devDependencies": {}
+}
