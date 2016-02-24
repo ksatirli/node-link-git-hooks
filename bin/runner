@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+'use strict';
+
+// check for update, inspired by http://dcmnt.me/1zzi8zS
+var updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
+
+// check for updates on a weekly basis
+updateNotifier({
+  pkg,
+  updateCheckInterval: 604800000 // value in ms
+}).notify();
+
+// this will immediately start the app; will potentially be reworked in the future
+require('../index');
