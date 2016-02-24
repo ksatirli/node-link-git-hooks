@@ -1,7 +1,7 @@
 {
   "name": "link-git-hooks",
   "version": "0.5.1",
-  "description": "A simple way of linking a local `hooks` directory to your `.git/hooks` and making sure all your commits get the proper attention.",
+  "description": "Easily link your versioned Git hooks to the ones used by the git binary.",
   "main": "index.js",
   "scripts": {
     "start": "node bin/runner",
