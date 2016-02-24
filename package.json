@@ -4,7 +4,8 @@
   "description": "A simple way of linking a local `hooks` directory to your `.git/hooks` and making sure all your commits get the proper attention.",
   "main": "index.js",
   "scripts": {
-    "start": "node bin/runner"
+    "start": "node bin/runner",
+    "test": "snyk test"
   },
   "bin": {
     "link-git-hooks": "bin/runner"
@@ -26,7 +27,8 @@
   "dependencies": {
     "async": "^1.5.2",
     "chalk": "^1.1.1",
-    "update-notifier": "^0.6.0"
+    "update-notifier": "^0.6.0",
+    "snyk": "^1.9.2"
   },
   "homepage": "https://bitbucket.org/frostedio/link-git-hooks#readme",
   "devDependencies": {}
