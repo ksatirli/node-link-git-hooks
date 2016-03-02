@@ -22,6 +22,5 @@ try {
   console.error(chalk.red('Linking could not be completed successfully.'));
 }
 
-
 console.log();
 console.log(chalk.green('All done.'));
