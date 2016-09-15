@@ -21,7 +21,7 @@ Note that you might require `sudo` permissions to install the above utility _glo
 Alternatively, you can install the utility directly from Git `HEAD` by running the following command:
 
 ```
-npm install -g https://bitbucket.org/frostedio/link-git-hooks/get/HEAD.tar.gz
+npm install -g https://bitbucket.org/cultivatedops/link-git-hooks/get/HEAD.tar.gz
 ```
 
 ### Usage
@@ -47,7 +47,7 @@ Please note: `link-git-hooks` will _not_ replace any existing hooks, so it is sa
 
 This utility is currently maintained by the individuals listed below.
 
-* [Kerim Satirli](mailto:kerim@icemobile.com)
+* [Kerim Satirli](mailto:kerim@cultivatedops.com)
 
 # License
 
