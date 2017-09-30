@@ -5,7 +5,7 @@
 	"increment": "patch",
 	"buildCommand": "terraform fmt",
 	"changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]",
-	"requireCleanWorkingDir": true,
+	"requireCleanWorkingDir": false,
 	"pkgFiles": null,
 	"src": {
 		"commitMessage": "Release %s",
