@@ -1,12 +1,32 @@
-# `link-git-hooks`
+# `link-git-hooks``
 
-[![Known Vulnerabilities](https://snyk.io/test/npm/link-git-hooks/badge.svg)](https://snyk.io/test/npm/link-git-hooks)
+> Quickly link your versioned Git hooks
 
-`link-git-hooks` provides an easy way of linking Git hooks inside of `./hooks` to `.git/hooks`.
+## This project is no longer maintained
 
-This allows you to version your Git hooks, thereby ensuring you and your team all use the same versions, all the time.
+`link-git-hooks` is no longer actively maintained and is only made available here for reference. The project itself is still capable of linking Git hooks.
 
-## Installation
+What follows is the original `README.md`:
+
+---
+
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Author Information](#author-information)
+- [License](#license)
+
+## Requirements
+
+Node.js 6.x or later.
+
+## Dependencies
+
+This script has no external dependencies.
+
+## Usage
 
 To install this utility, run the following command in your console:
 
@@ -26,33 +46,35 @@ npm install -g https://bitbucket.org/cultivatedops/link-git-hooks/get/HEAD.tar.g
 
 ### Usage
 
-In order to run `link-git-hooks`, open a console (`Terminal.app`, `PuTTY`) and change into a Git repository that includes a directory named `./hooks`.
+In order to run `link-git-hooks`, open a console (`Terminal.app`, `PuTTY`, etc.) and change into a directory that is both a Git repository _and_ includes a sub-directory named `hooks`.
 
-Then, run the following command:
+Then, run the `link-git-hooks` command.
 
-```
-link-git-hooks
-```
-
-Should the above command fail, verify that `link-git-hooks` is indeed installed by listing all globally installed modules:
+Should the command fail, verify that `link-git-hooks` is indeed installed by listing all globally installed modules:
 
 ```
 npm list -g
 ```
+
 Once executed, `link-git-hooks` will provide you with information regarding the process.
 
-Please note: `link-git-hooks` will _not_ replace any existing hooks, so it is safe to run multiple times.
+Please note: `link-git-hooks` will _not_ replace any (pre-)existing hooks, so it is safe to run multiple times.
 
-### Maintainers
+## Author Information
 
-This utility is currently maintained by the individuals listed below.
+`link-git-hooks` was maintained by the individuals listed below.
 
-* [Kerim Satirli](mailto:kerim@cultivatedops.com)
+- [Kerim Satirli](https://github.com/ksatirli)
+- [Yury Liavitski](https://github.com/heliocentrist)
 
-# License
+## License
 
-`link-git-hooks` is licensed under the _Apache 2.0_ license. A full copy of the license can be found on the [apache.org](http://www.apache.org/licenses/LICENSE-2.0) site.
+Copyright 2016-2017 [Kerim Satirli](https://github.com/ksatirli) and [Yury Liavitski](https://github.com/heliocentrist).
 
-In short, this license permits you to use this product commercially, distribute this software and make modifications.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 
-The software is provided without warranty and any contributors cannot be held liable for damages. You are also not allowed to use any name, logo or trademark without prior consent.
+You may obtain a copy of the License at [apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an _"AS IS"_ basis, without WARRANTIES or conditions of any kind, either express or implied.
+
+See the License for the specific language governing permissions and limitations under the License.
