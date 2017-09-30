@@ -1,4 +1,4 @@
-# `link-git-hooks``
+# `link-git-hooks`
 
 > Quickly link your versioned Git hooks
 
