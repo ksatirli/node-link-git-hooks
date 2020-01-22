@@ -42,12 +42,6 @@ This will make `link-git-hooks` available as a global binary.
 
 Note that you might require `sudo` permissions to install the above utility _globally_.
 
-Alternatively, you can install the utility directly from Git `HEAD` by running the following command:
-
-```
-npm install -g https://bitbucket.org/cultivatedops/link-git-hooks/get/HEAD.tar.gz
-```
-
 ### Usage
 
 In order to run `link-git-hooks`, open a console (`Terminal.app`, `PuTTY`, etc.) and change into a directory that is both a Git repository _and_ includes a sub-directory named `hooks`.
