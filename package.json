@@ -18,23 +18,23 @@
     "gitlab",
     "hook"
   ],
-  "author": "Kerim Satirli <kerim@cultivatedops.com>",
+  "author": "Kerim Satirli <kerim@operatehappy.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "async": "^2.5.0",
     "chalk": "^2.1.0",
     "update-notifier": "^2.2.0"
   },
-  "homepage": "https://github.com/withmethod/link-git-hooks",
+  "homepage": "https://github.com/operatehappy/link-git-hooks",
   "devDependencies": {},
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/withmethod/node-link-git-hooks.git"
+    "url": "git+https://github.com/operatehappy/node-link-git-hooks.git"
   },
   "bugs": {
-    "url": "https://github.com/withmethod/node-link-git-hooks/issues"
+    "url": "https://github.com/operatehappy/node-link-git-hooks/issues"
   }
 }
