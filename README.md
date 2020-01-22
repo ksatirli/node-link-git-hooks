@@ -12,11 +12,15 @@ What follows is the original `README.md`:
 
 ## Table of Contents
 
-- [Requirements](#requirements)
-- [Dependencies](#dependencies)
-- [Usage](#usage)
-- [Author Information](#author-information)
-- [License](#license)
+- [`link-git-hooks`](#link-git-hooks)
+  - [This project is no longer maintained](#this-project-is-no-longer-maintained)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Dependencies](#dependencies)
+  - [Usage](#usage)
+    - [Usage](#usage-1)
+  - [Author Information](#author-information)
+  - [License](#license)
 
 ## Requirements
 
@@ -62,16 +66,13 @@ Please note: `link-git-hooks` will _not_ replace any (pre-)existing hooks, so it
 
 ## Author Information
 
-`link-git-hooks` was maintained by the individuals listed below.
+This module is maintained by the contributors listed on [GitHub](https://github.com/operatehappy/node-link-git-hooks/graphs/contributors)
 
-- [Kerim Satirli](https://github.com/ksatirli)
-- [Yury Liavitski](https://github.com/heliocentrist)
+Development of this module was sponsored by [Operate Happy](https://github.com/operatehappy).
 
 ## License
 
-Copyright 2016-2017 [Kerim Satirli](https://github.com/ksatirli) and [Yury Liavitski](https://github.com/heliocentrist).
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+Licensed under the Apache License, Version 2.0 (the "License").
 
 You may obtain a copy of the License at [apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
